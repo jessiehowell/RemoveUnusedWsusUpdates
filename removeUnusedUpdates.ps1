@@ -26,7 +26,7 @@ foreach ($update in $updates[0..$count]) {
         }
         else {
             Write-Host "$($updates.IndexOf($update)): success" 
-		}
+	}
     }
 }
 
